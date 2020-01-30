@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Junior</string>
+    <string name="title_activity_screen">ScreenActivity</string>
 </resources>
