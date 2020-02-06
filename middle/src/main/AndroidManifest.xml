@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RadioHorizontalActivity" android:exported="true"></activity>
+        <activity android:name=".SpinnerDialogActivity" android:exported="true" ></activity>
+        <activity
+            android:name=".RadioHorizontalActivity"
+            android:exported="true" />
         <activity
             android:name=".RadioVerticalActivity"
             android:exported="true" />
