@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
     @Override
     public void onClick(View v) {
-//        if (v.getId() == R.id.btn_turn_view) {
-//            Intent intent = new Intent(this, TurnViewActivity.class);
-//            startActivity(intent);
+        if (v.getId() == R.id.btn_turn_view) {
+            Intent intent = new Intent(this, TurnViewActivity.class);
+            startActivity(intent);
 //        } else if (v.getId() == R.id.btn_turn_surface) {
 //            Intent intent = new Intent(this, TurnSurfaceActivity.class);
 //            startActivity(intent);
@@ -101,6 +101,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 //        } else if (v.getId() == R.id.btn_wechat) {
 //            Intent intent = new Intent(this, WeChatActivity.class);
 //            startActivity(intent);
-//        }
+        }
     }
 }
