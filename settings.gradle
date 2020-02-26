@@ -1,2 +1,2 @@
-include ':app', ':helloworld', ':junior', ':middle', ':storage'
+include ':app', ':helloworld', ':junior', ':middle', ':storage', ':device'
 rootProject.name='AndroidStudy'
