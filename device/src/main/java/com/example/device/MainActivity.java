@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         } else if (v.getId() == R.id.btn_turn_surface) {
             Intent intent = new Intent(this, TurnSurfaceActivity.class);
             startActivity(intent);
-//        } else if (v.getId() == R.id.btn_camera_info) {
-//            Intent intent = new Intent(this, CameraInfoActivity.class);
-//            startActivity(intent);
+        } else if (v.getId() == R.id.btn_camera_info) {
+            Intent intent = new Intent(this, CameraInfoActivity.class);
+            startActivity(intent);
 //        } else if (v.getId() == R.id.btn_photograph) {
 //            Intent intent = new Intent(this, PhotographActivity.class);
 //            startActivity(intent);
