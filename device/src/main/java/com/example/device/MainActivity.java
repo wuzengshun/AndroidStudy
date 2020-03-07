@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         } else if (v.getId() == R.id.btn_photograph) {
             Intent intent = new Intent(this, PhotographActivity.class);
             startActivity(intent);
-//        } else if (v.getId() == R.id.btn_trun_texture) {
-//            Intent intent = new Intent(this, TurnTextureActivity.class);
-//            startActivity(intent);
+        } else if (v.getId() == R.id.btn_trun_texture) {
+            Intent intent = new Intent(this, TurnTextureActivity.class);
+            startActivity(intent);
 //        } else if (v.getId() == R.id.btn_shooting) {
 //            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
 //                Toast.makeText(MainActivity.this, "Andorid版本低于5.0",
