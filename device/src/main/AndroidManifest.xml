@@ -14,7 +14,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TurnTextureActivity"></activity>
+        <activity android:name=".TakeShootingActivity"></activity>
+        <activity android:name=".ShootingActivity" />
+        <activity android:name=".TurnTextureActivity" />
         <activity android:name=".TakePictureActivity" />
         <activity android:name=".PhotographActivity" />
         <activity android:name=".CameraInfoActivity" />
