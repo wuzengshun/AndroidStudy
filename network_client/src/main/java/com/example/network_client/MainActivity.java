@@ -69,8 +69,8 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 //            Intent intent = new Intent(this, HttpImageActivity.class);
 //            startActivity(intent);
         } else if (v.getId() == R.id.btn_download_image) {
-//            Intent intent = new Intent(this, DownloadImageActivity.class);
-//            startActivity(intent);
+            Intent intent = new Intent(this, DownloadImageActivity.class);
+            startActivity(intent);
         } else if (v.getId() == R.id.btn_download_apk) {
 //            Intent intent = new Intent(this, DownloadApkActivity.class);
 //            startActivity(intent);
